@@ -1,0 +1,35 @@
+{
+  "best_model": "XGBoost",
+  "metrics": {
+    "Model": "XGBoost",
+    "MAE": 7.949599742889404,
+    "MSE": 140.1468505859375,
+    "RMSE": 11.838363509621484,
+    "R2": 0.9886409640312195
+  },
+  "top_predictors": {
+    "previous_month_sales": 0.3910999894142151,
+    "historical_demand": 0.36959999799728394,
+    "promotion": 0.06800000369548798,
+    "discount": 0.04439999908208847,
+    "product_price": 0.03620000183582306
+  },
+  "high_demand_categories": {
+    "Groceries": 357.2,
+    "Clothing": 148.2,
+    "Home & Kitchen": 103.5,
+    "Toys": 96.3,
+    "Sports": 84.4,
+    "Electronics": 67.6
+  },
+  "seasonal_avg_demand": {
+    "Winter": 151.1,
+    "Summer": 142.5,
+    "Spring": 139.1,
+    "Autumn": 138.5
+  },
+  "promotion_lift_pct": 30.5,
+  "holiday_lift_pct": 15.8,
+  "safety_stock_units": 19.5,
+  "residual_std": 11.84
+}
